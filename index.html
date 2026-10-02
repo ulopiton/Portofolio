@@ -1,12 +1,141 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
-  </head>
-  <body>
-    <h1>Test Porto Test Github</h1>
-  </body>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nama Anda - Portofolio</title>
+    <meta name="description" content="Portofolio profesional Nama Anda - Web Developer / Data Scientist / Designer">
+    
+    <!-- Link CSS Eksternal (Buat file style.css di folder yang sama) -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome / Icon (Opsional, untuk ikon medsos & skill) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- NAVBAR / NAVIGATION -->
+    <header>
+        <nav class="navbar">
+            <a href="#hero" class="logo">Portofolio.</a>
+            <ul class="nav-links">
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#skills">Keahlian</a></li>
+                <li><a href="#projects">Proyek</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1>Halo, Saya <span class="highlight">[Nama Anda]</span></h1>
+                <p class="subtitle">[Pekerjaan / Peran Utama Anda, misal: Full-Stack Developer & Machine Learning Engineer]</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary-btn">Lihat Proyek</a>
+                    <a href="#contact" class="btn secondary-btn">Hubungi Saya</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="about-section">
+            <h2 class="section-title">Tentang Saya</h2>
+            <div class="about-content">
+                <p>
+                    Tulis ringkasan singkat mengenai latar belakang Anda, minat utama di bidang teknologi/desain, serta apa yang sedang Anda fokuskan saat ini.
+                </p>
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section id="skills" class="skills-section">
+            <h2 class="section-title">Keahlian</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Bahasa / Framework</h3>
+                    <ul>
+                        <li>HTML / CSS / JavaScript</li>
+                        <li>PHP / Laravel</li>
+                        <li>Python / TensorFlow / Keras</li>
+                        <li>SQL / MySQL</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Alat & Teknologi</h3>
+                    <ul>
+                        <li>Git & GitHub</li>
+                        <li>Docker</li>
+                        <li>VS Code</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section id="projects" class="projects-section">
+            <h2 class="section-title">Proyek Populer</h2>
+            <div class="projects-grid">
+                
+                <!-- Card Proyek 1 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250" alt="Preview Proyek 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>Nama Proyek 1</h3>
+                        <p>Deskripsi singkat mengenai proyek ini, masalah yang diselesaikan, atau fitur utamanya.</p>
+                        <div class="tech-stack">
+                            <span>Laravel</span>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fa-brands fa-github"></i> Demo / Code</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Card Proyek 2 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250" alt="Preview Proyek 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>Nama Proyek 2</h3>
+                        <p>Deskripsi singkat proyek kedua Anda.</p>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>MobileNetV2</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fa-brands fa-github"></i> Demo / Code</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="contact-section">
+            <h2 class="section-title">Hubungi Saya</h2>
+            <p>Saya selalu terbuka untuk diskusi proyek baru, peluang kerja, atau sekadar bertegur sapa.</p>
+            <div class="social-links">
+                <a href="https://github.com/username Anda" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+                <a href="https://linkedin.com/in/username Anda" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                <a href="mailto:emailanda@example.com"><i class="fa-solid fa-envelope"></i> Email</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 [Nama Anda]. Semua Hak Cipta Dilindungi.</p>
+    </footer>
+
+    <!-- Link JS Eksternal (Buat file script.js di folder yang sama) -->
+    <script src="script.js"></script>
+</body>
 </html>
